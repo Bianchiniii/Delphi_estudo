@@ -12,12 +12,12 @@ type
     procedure setBonus(const Value: Currency);
   public
     property bonus: Currency read FBonus write setBonus;
-    function Salario: Currency; overload;
+    function CalcuSalario: Currency; overload;
   end;
 
 implementation
 
-function TAdministrativo.Salario: Currency;
+function TAdministrativo.CalcuSalario: Currency;
 begin
   Result := Salario + bonus;
 end;

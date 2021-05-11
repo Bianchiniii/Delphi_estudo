@@ -12,6 +12,7 @@ object frmPrincipal: TfrmPrincipal
   Font.Style = []
   OldCreateOrder = False
   Position = poOwnerFormCenter
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
@@ -23,10 +24,6 @@ object frmPrincipal: TfrmPrincipal
     BiDiMode = bdLeftToRight
     ParentBiDiMode = False
     TabOrder = 0
-    ExplicitLeft = 208
-    ExplicitTop = 184
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object Label1: TLabel
       Left = 16
       Top = 37
@@ -83,6 +80,7 @@ object frmPrincipal: TfrmPrincipal
       Height = 25
       Caption = 'Caadastrar'
       TabOrder = 3
+      OnClick = bntCadastrarClick
     end
     object btnCalcSalario: TButton
       Left = 346

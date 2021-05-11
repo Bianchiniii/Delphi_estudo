@@ -12,14 +12,14 @@ type
     procedure setComissao(const value: Currency);
   public
     property comissao: Currency read FComissao write setComissao;
-        function Salario: Currency; overload;
+    function CalcuSalario: Currency; overload;
   end;
 
 implementation
 
-function TVendedor.Salario: Currency;
+function TVendedor.CalcuSalario: Currency;
 begin
-     Result := Salario + comissao;
+  Result := Salario + comissao;
 end;
 
 procedure TVendedor.setComissao(const value: Currency);
@@ -30,5 +30,4 @@ begin
   FComissao := value;
 
 end;
-
 end.

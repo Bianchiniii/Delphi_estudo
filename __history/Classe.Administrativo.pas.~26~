@@ -1,0 +1,34 @@
+unit Classe.Administrativo;
+
+interface
+
+uses
+  Classe.Pessoa, System.SysUtils;
+
+type
+  TAdministrativo := class(TPessoa)
+  private
+    FBonus: Currency;
+    procedure setBonus(const Value: Currency);
+  public
+    property bonus: Currency read FBonus write setBonus;
+    function Salario: Currency; overload;
+  end;
+
+implementation
+
+function TAdministrativo.Salario: Currency;
+begin
+  Result := Salario + bonus;
+end;
+
+procedure TAdministrativo.setBonus(const Value: Currency);
+begin
+  if Value <= 0 then
+    raise Exception.Create('Campo Bônus em branco.');
+
+  FBonus := Value;
+
+end;
+
+end.
