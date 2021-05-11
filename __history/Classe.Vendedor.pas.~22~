@@ -1,0 +1,28 @@
+unit Classe.Vendedor;
+
+interface
+
+uses
+  Classe.Pessoa, System.SysUtils;
+
+type
+  TVendedor = class(TPessoa)
+  private
+    FComissao: Currency;
+    procedure setComissao(const value: Currency);
+  public
+    property comissao: Currency read FComissao write setComissao;
+  end;
+
+implementation
+
+procedure TVendedor.setComissao(const value: Currency);
+begin
+  if value <= 0 then
+    raise Exception.Create('Campo Comissão em branco');
+
+  FComissao := value;
+
+end;
+
+end.

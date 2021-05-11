@@ -108,18 +108,22 @@ object frmPrincipal: TfrmPrincipal
       Caption = '>>'
       TabOrder = 6
     end
-    object Edit1: TEdit
-      Left = 16
-      Top = 159
-      Width = 537
-      Height = 66
-      TabOrder = 7
-    end
     object cbFuncao: TComboBox
       Left = 57
       Top = 34
       Width = 496
       Height = 21
+      TabOrder = 7
+      Items.Strings = (
+        'Administrativo'
+        'Vendedor'
+        'Funcionario')
+    end
+    object memoResult: TMemo
+      Left = 16
+      Top = 160
+      Width = 537
+      Height = 73
       TabOrder = 8
     end
   end
