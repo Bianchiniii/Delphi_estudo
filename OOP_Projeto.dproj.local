@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/05/10 19:18:58.404,=D:\Pessoal\Estudo TI\Delphi\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 19:19:34.659,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\View.Principal.pas=D:\Pessoal\Estudo TI\Delphi\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 19:19:34.659,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\View.Principal.dfm=D:\Pessoal\Estudo TI\Delphi\Unit1.dfm</Transaction>
-    <Transaction>2021/05/10 19:19:46.722,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\OOP_Projeto.dproj=D:\Pessoal\Estudo TI\Delphi\Project1.dproj</Transaction>
-    <Transaction>2021/05/10 19:38:09.172,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 20:13:23.540,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Pessoa.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 21:03:05.080,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 21:03:33.951,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Vendedor.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 21:03:56.461,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 21:04:05.321,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
-    <Transaction>2021/05/10 21:04:16.609,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Administrativo.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2021/05/10 19:18:58.000.404,=D:\Pessoal\Estudo TI\Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/05/10 19:19:34.000.659,D:\Pessoal\Estudo TI\Delphi\Unit1.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\View.Principal.pas</Transaction>
+    <Transaction>2021/05/10 19:19:34.000.659,D:\Pessoal\Estudo TI\Delphi\Unit1.dfm=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\View.Principal.dfm</Transaction>
+    <Transaction>2021/05/10 19:19:46.000.722,D:\Pessoal\Estudo TI\Delphi\Project1.dproj=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\OOP_Projeto.dproj</Transaction>
+    <Transaction>2021/05/10 19:38:09.000.172,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
+    <Transaction>2021/05/10 20:13:23.000.540,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Pessoa.pas</Transaction>
+    <Transaction>2021/05/10 21:03:05.000.080,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
+    <Transaction>2021/05/10 21:03:33.000.951,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Vendedor.pas</Transaction>
+    <Transaction>2021/05/10 21:03:56.000.461,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
+    <Transaction>2021/05/10 21:04:05.000.321,=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas</Transaction>
+    <Transaction>2021/05/10 21:04:16.000.609,D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Unit1.pas=D:\Pessoal\Estudo TI\Projetos\Delphi\Delphi_estudo\Classe.Administrativo.pas</Transaction>
   </Transactions>
 </BorlandProject>

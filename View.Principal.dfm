@@ -2,7 +2,7 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Cadastro Funcion'#225'rio'
-  ClientHeight = 238
+  ClientHeight = 500
   ClientWidth = 568
   Color = clMenu
   Font.Charset = DEFAULT_CHARSET
@@ -19,11 +19,12 @@ object frmPrincipal: TfrmPrincipal
     Left = 0
     Top = 0
     Width = 568
-    Height = 238
+    Height = 500
     Align = alClient
     BiDiMode = bdLeftToRight
     ParentBiDiMode = False
     TabOrder = 0
+    ExplicitHeight = 238
     object Label1: TLabel
       Left = 16
       Top = 37
@@ -78,7 +79,7 @@ object frmPrincipal: TfrmPrincipal
       Top = 120
       Width = 113
       Height = 25
-      Caption = 'Caadastrar'
+      Caption = 'Cadastrar'
       TabOrder = 3
       OnClick = bntCadastrarClick
     end
@@ -112,6 +113,7 @@ object frmPrincipal: TfrmPrincipal
       Width = 496
       Height = 21
       TabOrder = 7
+      OnChange = cbFuncaoChange
       Items.Strings = (
         'Administrativo'
         'Vendedor'
@@ -121,8 +123,16 @@ object frmPrincipal: TfrmPrincipal
       Left = 16
       Top = 160
       Width = 537
-      Height = 73
+      Height = 121
       TabOrder = 8
+    end
+    object ListBox1: TListBox
+      Left = 16
+      Top = 296
+      Width = 537
+      Height = 193
+      ItemHeight = 13
+      TabOrder = 9
     end
   end
 end
